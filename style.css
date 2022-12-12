@@ -6,6 +6,12 @@
     }
 }
 
+@media(max-width: 479px) {
+    .paragrafos {
+        margin: 40px 30px;
+    }
+}
+
 @media(max-width: 393px) {
     .nomeMarca {
         font-size: 38px;
