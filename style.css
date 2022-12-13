@@ -183,7 +183,7 @@ div {
     transition-property: transform;
 }
 
-.gesso1:hover {
+.gesso1:active {
     cursor: pointer;
     transform: scale(1.5);
 }
