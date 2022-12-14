@@ -308,6 +308,18 @@ div p {
     transform: scale(1.5);
 }
 
+.logoface {
+    height: 30px;
+    box-shadow: none;
+    width: 30px;
+    transition: 0.2s;
+}
+
+.logoface:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
 footer {
     display: none;
 }
