@@ -329,3 +329,12 @@ footer p {
     margin: 2px;
     color: rgba(128, 128, 128, 0.603);
 }
+
+a {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.603);
+}
+
+a:hover {
+    text-decoration: overline;
+}
