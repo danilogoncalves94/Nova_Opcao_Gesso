@@ -1,5 +1,5 @@
 
-function mytitle() {
+/*function mytitle() {
     let topoSite = document.querySelector('#head')
     let titulo = document.querySelector('#title')
     let content = document.querySelector('#conteudo')
@@ -22,5 +22,23 @@ function mytitle() {
 
         content.style.cssText = "display: contents;"
         rodape.style.cssText = "display: contents;"
+    }, 2000)
+}*/
+
+function mytitle() {
+    let sorteio = Math.floor(Math.random() * 2) + 1
+    $('header').css({backgroundImage: `url('imagens/${sorteio}.png')`})
+    $('#title').css({color: 'white'})
+
+    setTimeout(() => {
+        $('header').css({
+            backgroundImage: "url('/imagens/imagem_fundo.jpg')"
+    })
+    }, 1000)
+
+    setTimeout(() => {
+        $('header').css({marginBottom: '100px'})
+        $('main').css('display', 'contents')
+        $('footer').css('display', 'contents')
     }, 2000)
 }
