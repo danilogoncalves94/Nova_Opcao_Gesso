@@ -32,7 +32,7 @@ function mytitle() {
 
     setTimeout(() => {
         $('header').css({
-            backgroundImage: "url('/imagens/imagem_fundo.jpg')"
+            backgroundImage: "url('imagens/imagem_fundo.jpg')"
     })
     }, 1000)
 
