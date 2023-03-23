@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@media(max-width: 512px) {
+    .logo {
+        width: 47%;
+    }
+}
+
+@media(max-width: 479px) {
+    .paragrafos {
+        margin: 40px 10px;
+        /*font-size: 15px;*/
+    }
+    .paragrafo_ultimo {
+        margin: 0px;
+        /*font-size: 15px;*/       
+    }
+
+    .contato {
+        margin: 40px 10px;
+    }
+}
+
+@media(max-width: 393px) {
+    .nomeMarca {
+        font-size: 38px;
+    }
+}
+
+@media(max-width: 360px) {
+    .nomeMarca {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 280px) {
+    .nomeMarca {
+        font-size: 27px;
+    }
+    .paragrafos {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 240px) {
+    .nomeMarca {
+        font-size: 23px;
+    }
+}
+
+@media(min-width: 840px) and (max-width: 959px) {
+    .gesso1 {
+        width: 320px;
+    }
+    .gesso2 {
+        width: 320px;
+    }
+    .gesso3 {
+        width: 320px;
+    }
+    .gesso4 {
+        width: 320px;
+    }
+    .gesso5 {
+        width: 320px;
+    }
+    .gesso6 {
+        width: 320px;
+    }
+    .gesso7 {
+        width: 320px;
+    }
+    .gesso8 {
+        width: 320px;
+    }
+}
+
+@media(min-width: 720px) and (max-width: 839px) {
+    .gesso1 {
+        width: 280px;
+    }
+    .gesso2 {
+        width: 280px;
+    }
+    .gesso3 {
+        width: 280px;
+    }
+    .gesso4 {
+        width: 280px;
+    }
+    .gesso5 {
+        width: 280px;
+    }
+    .gesso6 {
+        width: 280px;
+    }
+    .gesso7 {
+        width: 280px;
+    }
+    .gesso8 {
+        width: 280px;
+    }
+}
