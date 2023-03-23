@@ -9,7 +9,7 @@
 @media(max-width: 479px) {
     .paragrafos {
         margin: 40px 10px;
-        /*font-size: 15px;*/
+        font-size: 20px;
     }
     .paragrafo_ultimo {
         margin: 0px;
