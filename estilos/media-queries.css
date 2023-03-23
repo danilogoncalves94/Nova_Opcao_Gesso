@@ -8,7 +8,7 @@
 
 @media(max-width: 479px) {
     .paragrafos {
-        margin: 40px 13px;
+        margin: 40px 15px;
         font-size: 20px;
     }
     .paragrafo_ultimo {
@@ -17,7 +17,7 @@
     }
 
     .contato {
-        margin: 40px 13px;
+        margin: 40px 15px;
         font-size: 20px;
     }
 }
