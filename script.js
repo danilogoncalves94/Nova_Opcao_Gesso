@@ -41,15 +41,6 @@ function mytitle() {
         $('main').css('display', 'contents')
         $('footer').css('display', 'contents')
     }, 2000)
-    
-    ScrollReveal().reveal('.paragrafos', {
-        duration: 1000,
-        origin: 'bottom',
-        distance: '50px', 
-        delay: 500,
-        easing: 'ease-out',
-        reset: true
-    })
 }
 
 
