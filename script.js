@@ -42,7 +42,7 @@ function mytitle() {
         $('footer').css('display', 'contents')
     }, 2000)
     
-    ScrollReveal().reveal('.logo', {
+    ScrollReveal().reveal('.rolar', {
         duration: 1000,
         origin: 'bottom',
         distance: '50px', 
