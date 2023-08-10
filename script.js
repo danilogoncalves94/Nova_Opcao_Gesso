@@ -52,3 +52,4 @@ $(document).ready(function() {
         easing: 'ease-out',
         reset: true
     })
+}
