@@ -41,9 +41,7 @@ function mytitle() {
         $('main').css('display', 'contents')
         $('footer').css('display', 'contents')
     }, 2000)
-}
-
-$(document).ready(function() {
+    
     ScrollReveal().reveal('.logo', {
         duration: 1000,
         origin: 'bottom',
@@ -53,3 +51,6 @@ $(document).ready(function() {
         reset: true
     })
 }
+
+
+
