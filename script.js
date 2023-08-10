@@ -42,3 +42,13 @@ function mytitle() {
         $('footer').css('display', 'contents')
     }, 2000)
 }
+
+$(document).ready(function() {
+    ScrollReveal().reveal('.logo', {
+        duration: 1000,
+        origin: 'bottom',
+        distance: '50px', 
+        delay: 500,
+        easing: 'ease-out',
+        reset: true
+    })
