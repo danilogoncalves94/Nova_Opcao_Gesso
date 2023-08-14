@@ -25,16 +25,7 @@
     }, 2000)
 }*/
 
-function mytitle() {
-    ScrollReveal().reveal('.roll', {
-        duration: 1000,
-        origin: 'bottom',
-        distance: '50px',
-        delay: 200,
-        easing: 'ease-in-out',
-        reset: true
-    })
-    
+function mytitle() {    
     let sorteio = Math.floor(Math.random() * 2) + 1
     $('header').css({backgroundImage: `url('imagens/${sorteio}.png')`})
     $('#title').css({color: 'white'})
